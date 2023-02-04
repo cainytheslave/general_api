@@ -17,8 +17,8 @@ Schema on error:
 
 ```json
 {
-    status: int,
-    message: string
+    "status": 500,
+    "message": "Error message"
 }
 ```
 
@@ -26,10 +26,10 @@ Schema on success:
 
 ```json
 {
-    status: int,
-    song: string,
-    id: string,
-    artists: array,
-    album: string
+    "status": 200,
+    "song": "Machinehead - Remastered",
+    "id": "xyz",
+    "artists": ["Bush"],
+    "album": "Sixteen Stone (Remastered)"
 }
 ```
