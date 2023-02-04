@@ -12,7 +12,8 @@ Some may be restricted by authentication while others are public..
 
 -   [x] public
 
-Returns the current/last song I was listening to on Spotify
+Returns the current/last song I was listening to on Spotify.
+
 Schema on error:
 
 ```json
