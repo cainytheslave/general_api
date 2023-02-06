@@ -23,6 +23,15 @@ Schema on error:
 }
 ```
 
+Schema on "not currently listening":
+
+```json
+{
+    "status": 204,
+    "message": "Message"
+}
+```
+
 Schema on success:
 
 ```json
