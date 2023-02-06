@@ -48,6 +48,13 @@ Route::get('/song', function (Request $request) {
         ]);
     }
 
+    if ($response->object() == null) {
+        return response()->json([
+            'status' => $response->status(),
+            'message' => 'Currently I am not listening to Spotify.'
+        ]);
+    }
+
     $item = $response->object()->item;
 
     $artists = [];
